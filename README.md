@@ -4,13 +4,11 @@ Recommend the most suitable crop for farming based on soil nutrients (N, P, K), 
  
 ---
  
-## 👥 Team Members
- 
-| Name | Role |
-|---|---|
-| ABIKRISHNAN M S | Data & EDA Lead |
-| ANUSREE S | Modelling & Explainability Lead |
-| MUHAMMED SHAHID S | Deployment & Documentation Lead |
+### 👥 Team Members
+
+- ABIKRISHNAN M S
+- ANUSREE S
+- MUHAMMED SHAHID S
  
 ---
  
