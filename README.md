@@ -4,12 +4,10 @@ Recommend the most suitable crop for farming based on soil nutrients (N, P, K), 
  
 ---
  
-### 👥 Team Members
-
+## 👥 Team Members
 - ABIKRISHNAN M S
 - ANUSREE S
 - MUHAMMED SHAHID S
- 
 ---
  
 ## 📌 Project Topic
@@ -43,3 +41,60 @@ Recommend the most suitable crop for farming based on soil nutrients (N, P, K), 
 | Humidity | Relative humidity | % |
 | pH | Soil pH value | 0–14 |
 | Rainfall | Annual rainfall | mm |
+ 
+---
+ 
+## 🔍 Stage 2 & 3 — Data Understanding & Preprocessing
+ 
+### Key Findings
+ 
+| Check | Result |
+|---|---|
+| Total Records | 2,200 |
+| Missing Values | None — dataset is complete |
+| Duplicate Rows | None found |
+| Class Balance | Perfectly balanced — 100 samples per crop |
+| Data Types | All features are numerical — no encoding needed for inputs |
+| Target Encoding | Label column encoded using LabelEncoder in modelling notebook |
+ 
+### Outlier Analysis
+Outliers were detected in **K, humidity, and rainfall** using boxplots. These were **retained intentionally** — they represent natural agricultural variations across different farming regions and are valid data points.
+ 
+### Statistical Summary
+ 
+| Feature | Min | Max | Mean |
+|---|---|---|---|
+| N | 0.00 | 140.00 | 50.55 |
+| P | 5.00 | 145.00 | 53.36 |
+| K | 5.00 | 205.00 | 48.15 |
+| Temperature | 8.83°C | 43.68°C | 25.62°C |
+| Humidity | 14.26% | 99.98% | 71.48% |
+| pH | 3.50 | 9.94 | 6.47 |
+| Rainfall | 20.21mm | 298.56mm | 103.46mm |
+ 
+---
+ 
+## 📊 Stage 4 — Exploratory Data Analysis (EDA)
+ 
+### Visualizations Produced
+- **Class Distribution** — bar chart confirming balanced classes across all 22 crops
+- **Feature Distributions** — histograms for all 7 features
+- **Correlation Heatmap** — pairwise correlations between all features
+- **Violin Plots** — per-crop distribution for each feature
+- **Crop-Feature Heatmap** — average feature values per crop
+- **Top 5 Crops per Feature** — horizontal bar charts
+- **Pairplot** — N, P, K, pH grouped by crop category (Cereals, Fruits, Pulses, Cash Crops)
+### Key EDA Insights
+ 
+| Insight | Detail |
+|---|---|
+| High rainfall crops | Rice and jute require >200mm rainfall |
+| High humidity crops | Coffee requires high humidity and low K |
+| N and K correlation | Moderate positive — both are primary macronutrients |
+| pH independence | pH shows very low correlation with all other features |
+| Crop group separation | Fruits cluster differently from Pulses in N-P-K space |
+| Temperature vs humidity | Slight negative correlation observed |
+ 
+> 📓 See `notebooks/01_data_preprocessing_eda.ipynb` for full code and visualizations.
+ 
+---
