@@ -1,15 +1,5 @@
 #!/usr/bin/env python3
-"""
-Crop Recommendation System — Model Training & Evaluation
-=========================================================
-Input  : artifacts/feature_engineered_data.pkl
-Output : artifacts/models.pkl
-         artifacts/training_report.csv
-         artifacts/confusion_matrices.png
-         artifacts/roc_curves.png
-         artifacts/model_comparison.png
-         artifacts/classification_reports.txt
-"""
+
 
 import pickle, os, warnings
 import numpy as np
