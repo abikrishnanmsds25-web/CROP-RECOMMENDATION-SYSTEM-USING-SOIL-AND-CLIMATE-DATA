@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-
+"""
+Crop Recommendation System — Preprocessing Pipeline
+=====================================================
+Input  : Crop_recommendation.csv
+Output : preprocessed_data.pkl  (train / val / test splits + scaler + encoder)
+"""
 
 import pandas as pd
 import numpy as np
