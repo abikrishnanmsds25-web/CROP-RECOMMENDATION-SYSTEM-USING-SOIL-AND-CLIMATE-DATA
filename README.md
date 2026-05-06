@@ -179,7 +179,7 @@ All models are tuned via `GridSearchCV` during training.
 
 ---
 
-## Notes
+
 
 - `artifacts/models.pkl` **must exist** before launching the app.
 - The app auto-engineers features to match the training pipeline.
