@@ -1,7 +1,13 @@
-# Crop Recommendation System Using Machine Learning
+# 🌾 Crop Recommendation System Using Soil and Climate Data
+ 
+Recommend the most suitable crop for farming based on soil nutrients (N, P, K), temperature, humidity, pH, and rainfall using machine learning classifiers. Visualize decision regions and feature importances. Build an interactive web app for farmers using Streamlit.
+---
 
-> A supervised multi-class classification pipeline that recommends optimal crop types based on soil nutrient profiles and climatic conditions.
-
+ 
+## 👥 Team Members
+- ABIKRISHNAN M S
+- ANUSREE S
+- MUHAMMED SHAHID S
 ---
 
 ## Table of Contents
