@@ -1,14 +1,5 @@
 #!/usr/bin/env python3
-"""
-Crop Recommendation System — Feature Engineering
-==================================================
-Input  : Crop_recommendation.csv  +  artifacts/preprocessed_data.pkl
-Output : artifacts/feature_engineered_data.pkl
-         artifacts/feature_importance_report.csv
-         artifacts/feature_correlation_heatmap.png
-         artifacts/feature_distributions.png
-         artifacts/feature_importance_rf.png
-"""
+
 
 
 import pandas as pd
