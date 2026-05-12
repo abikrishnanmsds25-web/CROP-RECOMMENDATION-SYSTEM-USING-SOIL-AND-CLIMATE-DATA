@@ -319,7 +319,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 ```
 ---
 
-## Deploy to Streamlit Community Cloud
+## Deploy of the application by Streamlit Community Cloud
 
 1. Push this repo to GitHub (make sure `artifacts/models.pkl` is committed, or use Git LFS).
 2. Go to [share.streamlit.io](https://share.streamlit.io) → New app.
