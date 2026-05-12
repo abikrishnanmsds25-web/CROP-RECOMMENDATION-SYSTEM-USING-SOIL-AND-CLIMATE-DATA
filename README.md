@@ -323,7 +323,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 1. Push this repo to GitHub (make sure `artifacts/models.pkl` is committed, or use Git LFS).
 2. Go to [share.streamlit.io](https://share.streamlit.io) → New app.
-3. Point to `app.py` in your repo.
+3. Point to `app.py` in our repository.
 4. Done — no extra config needed.
 
 ---
