@@ -318,7 +318,15 @@ Install all dependencies via:
 pip install pandas numpy scikit-learn matplotlib seaborn
 ```
 ---
+## 🌐 Deployment
 
+<img width="1920" height="921" alt="Screenshot 2026-05-16 185529" src="https://github.com/user-attachments/assets/541c1af8-d074-4202-ba5c-6fa902dd845d" />
+
+<img width="1917" height="907" alt="Screenshot 2026-05-16 185433" src="https://github.com/user-attachments/assets/e3febadb-c525-47b8-8944-2b76dfe7b587" />
+
+<img width="1920" height="930" alt="Screenshot 2026-05-16 185815" src="https://github.com/user-attachments/assets/69919b30-dc3e-4973-a95b-398e26d61926" />
+
+---
 ## Deploy of the application by Streamlit Community Cloud
 
 ## DEPLOYMENT LINK
