@@ -321,6 +321,8 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 ## Deploy of the application by Streamlit Community Cloud
 
+## DEPLOYMENT LINK
+--https://crop-recommendation-system-using-soil-and-climate-data-hgfcbtd.streamlit.app/
 1. Push this repo to GitHub (make sure `artifacts/models.pkl` is committed, or use Git LFS).
 2. Go to [share.streamlit.io](https://share.streamlit.io) → New app.
 3. Point to `app.py` in our repository.
